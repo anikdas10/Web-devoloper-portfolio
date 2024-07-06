@@ -141,3 +141,27 @@ margin-bottom: 5px;
     color: #757575;
     font-size: 16px;
 }
+/* resume */
+.resume-container{
+   display: flex;
+   gap: 24px;
+}
+.column-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+.expreance-title{
+    font-size: 25px;
+}
+.expreance-description {
+    color: #757575;
+    font-size: 16px;
+}
+.expreance-sub{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.resume-download-cv{
+    margin-top: 50px;
+}
