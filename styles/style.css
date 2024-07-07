@@ -59,7 +59,8 @@ nav ul{
     border: none;
     font-size: 20px;
     cursor: pointer;
-    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    margin: 10px;
    
 
 }
