@@ -20,8 +20,6 @@
 
 nav{
     display: flex;
-   
-    display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0PX 200PX;
@@ -197,4 +195,49 @@ footer input[type="text"],footer input[type="email"],footer textarea
 .btn-primary:hover{
 -webkit-transform: scale(1.1);
 transform: scale(1.1);
+}
+
+
+.hide{
+    display: none;
+}
+/* responsive  */
+
+@media screen and (max-width:576px) {
+    .skills-container,.banner{
+        flex-direction: column;
+    }
+    .resume-container{
+        flex-direction: column;
+    }
+    footer ,.section-item{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-column{
+        width:100%;
+    }
+    footer input[type="text"],footer input[type="email"],footer textarea {
+        width: calc(100% - 40px);
+    }
+   .section{
+    padding: 20px;
+   } 
+   .banner{
+    margin: 20px;
+   }
+   .header{
+    background-image: none;
+
+   }
+   .banner-profile
+   {
+    width: 100%;
+   }
+nav,nav>ul{
+    justify-content: flex-start;
+}
+nav{
+    margin: 20px;
+}
 }
